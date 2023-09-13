@@ -10,6 +10,6 @@
 //    console.log(i);
 //}
 
-import get_data from 'emot-rgb.github.io/python code/sheets-test-google.py';
+import get_data from 'emot-rgb.github.io/python code/env/include/sheets-test-google.py';
 
 console.log(get_data());
