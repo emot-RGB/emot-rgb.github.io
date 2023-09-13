@@ -29,18 +29,18 @@ text = "text"
 pic = "pic"
 
 
-with open('page_content.json', 'r') as file:
+with open('emot-rgb.github.io/page_content.json', 'r') as file:
 
     content = json.load(file)
 
     num = "0"
     
     def add_to_comment(a):
-        print(content)
+        #print(content)
         v = a.split("\\")
         c = v[0]
         d = v[1]
-        print(v)
+        #print(v)
         if "date" in a : 
             content[num][c] = d
         if "time" in a : 
@@ -72,7 +72,7 @@ with open('page_content.json', 'r') as file:
             if "num" in a:
                 num = a.split("\\")
                 num = num[1]
-                print("            ",num)
+                #print("            ",num)
                 content[num] = {}
             add_to_comment(a)
             
@@ -80,9 +80,10 @@ with open('page_content.json', 'r') as file:
 
     content = json.dumps(content, indent=4)
 
-    #print(all_comments)
+    
 
-with open('page_content.json', 'w') as file:
+with open('emot-rgb.github.io/page_content.json', 'w') as file:
+    print(content)
     file.write(content)
 
 
