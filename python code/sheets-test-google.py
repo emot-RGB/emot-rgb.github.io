@@ -29,7 +29,7 @@ def get_data():
     pic = "pic"
 
 
-    with open('emot-rgb.github.io/page_content.json', 'r') as file:
+    with open('emot-rgb.github.io/saved data/page_content.json', 'r') as file:
 
         content = json.load(file)
 
@@ -82,9 +82,7 @@ def get_data():
 
         
 
-    with open('emot-rgb.github.io/page_content.json', 'w') as file:
-        print(content)
+    with open('emot-rgb.github.io/saved data/page_content.json', 'w') as file:
         file.write(content)
-
-
-get_data()
+    
+    return content
