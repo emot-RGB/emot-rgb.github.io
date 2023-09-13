@@ -86,3 +86,5 @@ def get_data():
         file.write(content)
     
     return content
+
+get_data()
