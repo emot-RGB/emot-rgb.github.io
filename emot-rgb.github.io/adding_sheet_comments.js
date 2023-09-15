@@ -1,4 +1,4 @@
-import content from '/emot-rgb.github.io/page_content.json' assert {type:'json'};
+import content from 'emot-rgb.github.io/saved data/page_content.json';
 
 window.onload = load_content();
 
