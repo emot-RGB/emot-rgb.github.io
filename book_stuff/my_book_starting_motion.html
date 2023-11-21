@@ -12,14 +12,16 @@
     
         <a href="../index.html"><h2>Back</h2></a>
         <iframe class="bookstuff" allow="fullscreen"
-        style="margin: 0%;
-            position: relative;
-            left: 30%;
-            right: 30%;
+        style="
+            position:absolute;
+            align-self: center;
+            left: 5vw;
+            right: 5vw;
             width: 90vw;
             min-height: 90vw;
-            border-color: transparent;" 
-        src="https://docs.google.com/document/d/e/2PACX-1vQLTfHgKOYXqOG123zKOnnuaH9hp1_Iot0fZ9JNyTzTYYgFnaFhdrkYHGoiQNysXt_bNuyXCW9cW-7q/pub?embedded=true"
+            border-radius: 50px;
+            border-color: black;"
+        src ="https://docs.google.com/document/d/e/2PACX-1vQLTfHgKOYXqOG123zKOnnuaH9hp1_Iot0fZ9JNyTzTYYgFnaFhdrkYHGoiQNysXt_bNuyXCW9cW-7q/pub?embedded=true"
         
         ></iframe>
         
@@ -27,5 +29,14 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     </body>
-        <script src="" async defer></script>
+        <script src="" async defer>
+            var iframe = document.getElementById('iframe');
+            var style = document.createElement('style');
+            style.textContent =
+            'div {' +
+            '  width: 90vw;' +
+            '}' 
+            ;
+            iframe.contentDocument.head.appendChild(style);
+        </script>
 </html>
