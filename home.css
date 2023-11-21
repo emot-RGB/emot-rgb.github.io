@@ -5,15 +5,16 @@ html {
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(252, 93, 19);
     margin: 0%;
   }
 
 h1 {
   color: rgb(255, 255, 255);
 }
+
 h1,h2 {
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .top_menu {
@@ -22,6 +23,6 @@ h1,h2 {
   border-bottom-left-radius: 50px;
 }
 
-.bookstuff > div {
-  width: 100vw;
+.c9_doc-content {
+  width: 100% !important;
 }
