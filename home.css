@@ -21,3 +21,7 @@ h1,h2 {
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+
+.bookstuff > div {
+  width: 100vw;
+}
