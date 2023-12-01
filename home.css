@@ -21,8 +21,11 @@ h1,h2 {
   align-items: center;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
+  width: 100vw;
 }
 
-.c9_doc-content {
-  width: 100% !important;
+iframe {
+  width: 100vw;
+  height: 90vh;
+  border-color: transparent;
 }
