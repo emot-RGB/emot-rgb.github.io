@@ -2,10 +2,11 @@
 
 html {
   font-family: 'Comfortaa', cursive;
+  background-color: aquamarine;
 }
 
 body {
-    background-color: red;
+    background-color: rgb(0, 59, 47);
     margin: 0%;
   }
 
