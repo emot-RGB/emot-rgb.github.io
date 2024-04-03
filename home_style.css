@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
 
 html {
+  display: grid;
+  gap: 50px 50px;
   font-family: 'Comfortaa', cursive;
   background-color: aquamarine;
+  grid-template-columns: 1;
 }
 
-body {
+.page_body {
     background-color: rgb(0, 59, 47);
     margin: 0%;
   }
@@ -14,7 +17,7 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-h1,h2 {
+h1,h2,h3 {
   align-content: center;
   margin: 10px;
 }
@@ -30,17 +33,22 @@ h1,h2 {
 
 
 
-div.page_block{
-  position: relative;
-  left: 5%;
-  right: 50%;
-  display: inline-flex; 
-  width: 90vw;
+.page_block{
+  display: inline-grid;
+  margin-left: 10px;
   margin-top: 10px;
   color: aliceblue;
-  background-color: rgb(1, 1, 63);
+  background-color: rgba(1, 1, 63, 0.397);
   border-radius: 20px;
   background-clip: padding-box;
 
-  
+}
+
+.page_block_text {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.page_block_img {
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
