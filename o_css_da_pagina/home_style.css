@@ -35,20 +35,25 @@ h1,h2,h3 {
 
 .page_block{
   display: inline-grid;
+  min-width: 51vw;
   margin-left: 10px;
   margin-top: 10px;
   color: aliceblue;
   background-color: rgba(1, 1, 63, 0.397);
   border-radius: 20px;
   background-clip: padding-box;
+  border-color: aqua;
+  border: 20px;
 
 }
 
 .page_block_text {
+  width: 25vw;
   grid-column-start: 1;
   grid-column-end: 1;
 }
 .page_block_img {
+  width: 25vw;
   grid-column-start: 2;
   grid-column-end: 3;
 }
