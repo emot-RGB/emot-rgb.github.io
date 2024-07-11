@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap');
 
 html {
-  display: grid;
+  display: block;
   gap: 50px 50px;
   font-family: 'Comfortaa', cursive;
   background-color: aquamarine;
@@ -35,11 +35,8 @@ h1,h2,h3 {
 
 .page_block{
   position: relative;
-  left: 100;
-  right: 100;
-  display: inline-grid;
-  min-width: 51vw;
-  margin-left: 10px;
+  margin: auto;
+  width: 70vw;
   margin-top: 10px;
   color: aliceblue;
   background-color: rgba(1, 1, 63, 0.397);
@@ -51,12 +48,24 @@ h1,h2,h3 {
 }
 
 .page_block_text {
-  width: 25vw;
-  grid-column-start: 1;
-  grid-column-end: 1;
+  text-align: center;
+  position: relative;
 }
 .page_block_img {
-  width: 25vw;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  display: block;
+  margin: auto;
+  width: 50vw;
+  max-width: 35vw;
+  border-radius: 20px;
+}
+
+
+
+
+.reading_book {
+  display: block;
+  width: 100vw;
+  height: 90vh;
+  margin: auto;
+  border-color: transparent;
 }
