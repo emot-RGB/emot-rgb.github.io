@@ -4,7 +4,7 @@ html {
   display: block;
   gap: 50px 50px;
   font-family: 'Comfortaa', cursive;
-  background-color: aquamarine;
+  background-color: rgb(0, 59, 47);
   grid-template-columns: 1;
 }
 
@@ -44,12 +44,27 @@ h1,h2,h3 {
   background-clip: padding-box;
   border-color: aqua;
   border: 20px;
-
+  padding-bottom: 10px;
 }
+
+.sub_page_block{
+  position: relative;
+  margin: auto;
+  width: 45vw;
+  margin-top: 10px;
+  color: aliceblue;
+  background-color: rgba(98, 0, 255, 0.685);
+  border-radius: 20px;
+  background-clip: padding-box;
+  border-color: aqua;
+  border: 20px;
+  padding-bottom: 10px;
+}
+
 
 .page_block_text {
   text-align: center;
-  position: relative;
+  padding: 10px;
 }
 .page_block_img {
   display: block;
@@ -57,6 +72,7 @@ h1,h2,h3 {
   width: 50vw;
   max-width: 35vw;
   border-radius: 20px;
+  padding-bottom: 10px;
 }
 
 
