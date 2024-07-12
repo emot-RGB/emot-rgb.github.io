@@ -63,8 +63,10 @@ h1,h2,h3 {
 
 
 .page_block_text {
+  display: block;
   text-align: center;
   padding: 10px;
+  margin: auto;
 }
 .page_block_img {
   display: block;
