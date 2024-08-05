@@ -71,8 +71,8 @@ h1,h2,h3 {
 .page_block_img {
   display: block;
   margin: auto;
-  width: 50vw;
-  max-width: 35vw;
+  width: 35vw;
+  max-width: 50%;
   bottom: 10px;
   border-radius: 20px;
   
