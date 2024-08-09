@@ -100,7 +100,7 @@ h1,h2,h3 {
 .reading_book {
   display: block;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   border-color: transparent;
 }
